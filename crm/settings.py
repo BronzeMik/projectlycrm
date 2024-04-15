@@ -31,9 +31,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
     'webapp',
-
     'crispy_forms',
     'crispy_bootstrap4',
 ]
@@ -68,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'crm.wsgi.application'
+WSGI_APPLICATION = 'crm.wsgi.app'
 
 
 # Database
